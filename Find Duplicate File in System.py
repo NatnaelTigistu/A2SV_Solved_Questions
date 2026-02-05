@@ -1,5 +1,5 @@
 class Solution:
-    def findDuplicate(self, paths):
+    def findDuplicate(self, paths: List[str]) -> List[List[str]]:
         m = {}
         for p in paths:
             parts = p.split()
