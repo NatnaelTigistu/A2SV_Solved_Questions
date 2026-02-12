@@ -1,0 +1,1 @@
+{"name":"Local: Friendly Numbers","url":"/home/natnael/A2SV_Solved_Questions/Friendly Numbers.py","tests":[{"id":1770823510082,"input":"3\n1\n18\n998244360","output":"0\n10\n10"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/natnael/A2SV_Solved_Questions/Friendly Numbers.py","group":"local","local":true}

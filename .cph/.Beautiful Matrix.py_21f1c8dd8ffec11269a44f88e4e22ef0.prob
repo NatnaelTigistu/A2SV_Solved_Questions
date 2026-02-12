@@ -1,0 +1,1 @@
+{"name":"Local: Beautiful Matrix","url":"/home/natnael/A2SV_Solved_Questions/Beautiful Matrix.py","tests":[{"id":1770880297800,"input":"0 0 0 0 0\n0 0 0 0 1\n0 0 0 0 0\n0 0 0 0 0\n0 0 0 0 0\n","output":"3\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/natnael/A2SV_Solved_Questions/Beautiful Matrix.py","group":"local","local":true}
