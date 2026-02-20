@@ -1,0 +1,1 @@
+{"name":"Local: Optimal Point on a Line","url":"/home/natnael/A2SV_Solved_Questions/Optimal Point on a Line.py","tests":[{"id":1771598538325,"input":"4\n1 2 3 4","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/natnael/A2SV_Solved_Questions/Optimal Point on a Line.py","group":"local","local":true}

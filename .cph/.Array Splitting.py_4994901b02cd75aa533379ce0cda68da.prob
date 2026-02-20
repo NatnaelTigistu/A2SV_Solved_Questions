@@ -1,0 +1,1 @@
+{"name":"Local: Array Splitting","url":"/home/natnael/A2SV_Solved_Questions/Array Splitting.py","tests":[{"id":1771606672069,"input":"6 3\n4 8 15 16 23 42\n","output":"12"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/natnael/A2SV_Solved_Questions/Array Splitting.py","group":"local","local":true}

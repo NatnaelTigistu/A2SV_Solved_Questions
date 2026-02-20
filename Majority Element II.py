@@ -1,14 +1,16 @@
 class Solution:
     def majorityElement(self, nums: List[int]) -> List[int]:
-        n = len(nums)
-        freq = {}
+        n = len(nums) 
+        reqFreq = n // 3
+        base = min(nums)
+        arrSize = (max(nums) - base) + 1
+        arr = [0]* arrSize
 
-        for x in nums:
-            freq[x] = freq.get(x, 0) + 1
-
-        result = []
-        for x, count in freq.items():
-            if count > n // 3:
-                result.append(x)
-
-        return result
+        for num in nums:
+            arr[num - base] += 1
+        res = []
+        for i in range(arrSize):
+            if arr[i] > reqFreq:
+                res.append(i + base)
+        
+        return res
