@@ -1,0 +1,1 @@
+{"name":"Local: Single Tower","url":"/home/natnael/A2SV_Solved_Questions/Single Tower.py","tests":[{"id":1771661722175,"input":"2\n3 3 5 8\n2 9 2\n","output":"1 2\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/natnael/A2SV_Solved_Questions/Single Tower.py","group":"local","local":true}

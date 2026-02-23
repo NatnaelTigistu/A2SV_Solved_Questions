@@ -1,0 +1,1 @@
+{"name":"Local: Missing Level","url":"/home/natnael/A2SV_Solved_Questions/Missing Level.py","tests":[{"id":1771655502956,"input":"10\n3 8 10 1 7 9 6 5 2\n","output":"4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/natnael/A2SV_Solved_Questions/Missing Level.py","group":"local","local":true}
