@@ -1,0 +1,1 @@
+{"name":"Local: Broken Keyboard","url":"/home/natnael/A2SV_Solved_Questions/Broken Keyboard.py","tests":[{"id":1771951635081,"input":"5\na\nzzaaz\nccff\ncbddbb\naaab","output":"a\nz\n\nbc\nab"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/natnael/A2SV_Solved_Questions/Broken Keyboard.py","group":"local","local":true}
