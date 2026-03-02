@@ -2,3 +2,15 @@ A2SV learning journey Practice Problems Solutions
 
 This repository contains my solutions to Data Structures and Algorithms problems from LeetCode, Codeforces, GeeksforGeeks, HackerRank, and other platforms as part of my A2SV learning journey. 
 It also includes solutions to contests I participate in, reflecting consistent practice and improvement in problem-solving and competitive programming.
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1480-running-sum-of-1d-array](https://github.com/NatnaelTigistu/A2SV_Solved_Questions/tree/main/1480-running-sum-of-1d-array/) | Easy |
+## Prefix Sum
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1480-running-sum-of-1d-array](https://github.com/NatnaelTigistu/A2SV_Solved_Questions/tree/main/1480-running-sum-of-1d-array/) | Easy |
+<!---LeetCode Topics End-->
