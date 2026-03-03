@@ -8,12 +8,14 @@ It also includes solutions to contests I participate in, reflecting consistent p
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0238-product-of-array-except-self](https://github.com/NatnaelTigistu/A2SV_Solved_Questions/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0303-range-sum-query-immutable](https://github.com/NatnaelTigistu/A2SV_Solved_Questions/tree/main/0303-range-sum-query-immutable/) | Easy |
 | [1480-running-sum-of-1d-array](https://github.com/NatnaelTigistu/A2SV_Solved_Questions/tree/main/1480-running-sum-of-1d-array/) | Easy |
 | [2381-shifting-letters-ii](https://github.com/NatnaelTigistu/A2SV_Solved_Questions/tree/main/2381-shifting-letters-ii/) | Medium |
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0238-product-of-array-except-self](https://github.com/NatnaelTigistu/A2SV_Solved_Questions/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0303-range-sum-query-immutable](https://github.com/NatnaelTigistu/A2SV_Solved_Questions/tree/main/0303-range-sum-query-immutable/) | Easy |
 | [1480-running-sum-of-1d-array](https://github.com/NatnaelTigistu/A2SV_Solved_Questions/tree/main/1480-running-sum-of-1d-array/) | Easy |
 | [2381-shifting-letters-ii](https://github.com/NatnaelTigistu/A2SV_Solved_Questions/tree/main/2381-shifting-letters-ii/) | Medium |
