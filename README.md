@@ -11,6 +11,7 @@ It also includes solutions to contests I participate in, reflecting consistent p
 | [0053-maximum-subarray](https://github.com/NatnaelTigistu/A2SV_Solved_Questions/tree/main/0053-maximum-subarray/) | Medium |
 | [0238-product-of-array-except-self](https://github.com/NatnaelTigistu/A2SV_Solved_Questions/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0303-range-sum-query-immutable](https://github.com/NatnaelTigistu/A2SV_Solved_Questions/tree/main/0303-range-sum-query-immutable/) | Easy |
+| [0560-subarray-sum-equals-k](https://github.com/NatnaelTigistu/A2SV_Solved_Questions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0930-binary-subarrays-with-sum](https://github.com/NatnaelTigistu/A2SV_Solved_Questions/tree/main/0930-binary-subarrays-with-sum/) | Medium |
 | [1413-minimum-value-to-get-positive-step-by-step-sum](https://github.com/NatnaelTigistu/A2SV_Solved_Questions/tree/main/1413-minimum-value-to-get-positive-step-by-step-sum/) | Easy |
 | [1480-running-sum-of-1d-array](https://github.com/NatnaelTigistu/A2SV_Solved_Questions/tree/main/1480-running-sum-of-1d-array/) | Easy |
@@ -20,6 +21,7 @@ It also includes solutions to contests I participate in, reflecting consistent p
 | ------- | ------- |
 | [0238-product-of-array-except-self](https://github.com/NatnaelTigistu/A2SV_Solved_Questions/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0303-range-sum-query-immutable](https://github.com/NatnaelTigistu/A2SV_Solved_Questions/tree/main/0303-range-sum-query-immutable/) | Easy |
+| [0560-subarray-sum-equals-k](https://github.com/NatnaelTigistu/A2SV_Solved_Questions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0930-binary-subarrays-with-sum](https://github.com/NatnaelTigistu/A2SV_Solved_Questions/tree/main/0930-binary-subarrays-with-sum/) | Medium |
 | [1413-minimum-value-to-get-positive-step-by-step-sum](https://github.com/NatnaelTigistu/A2SV_Solved_Questions/tree/main/1413-minimum-value-to-get-positive-step-by-step-sum/) | Easy |
 | [1480-running-sum-of-1d-array](https://github.com/NatnaelTigistu/A2SV_Solved_Questions/tree/main/1480-running-sum-of-1d-array/) | Easy |
@@ -43,6 +45,7 @@ It also includes solutions to contests I participate in, reflecting consistent p
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0560-subarray-sum-equals-k](https://github.com/NatnaelTigistu/A2SV_Solved_Questions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0930-binary-subarrays-with-sum](https://github.com/NatnaelTigistu/A2SV_Solved_Questions/tree/main/0930-binary-subarrays-with-sum/) | Medium |
 ## Sliding Window
 | Problem Name | Difficulty |
