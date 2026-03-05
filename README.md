@@ -51,4 +51,12 @@ It also includes solutions to contests I participate in, reflecting consistent p
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0930-binary-subarrays-with-sum](https://github.com/NatnaelTigistu/A2SV_Solved_Questions/tree/main/0930-binary-subarrays-with-sum/) | Medium |
+## Linked List
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0203-remove-linked-list-elements](https://github.com/NatnaelTigistu/A2SV_Solved_Questions/tree/main/0203-remove-linked-list-elements/) | Easy |
+## Recursion
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0203-remove-linked-list-elements](https://github.com/NatnaelTigistu/A2SV_Solved_Questions/tree/main/0203-remove-linked-list-elements/) | Easy |
 <!---LeetCode Topics End-->
