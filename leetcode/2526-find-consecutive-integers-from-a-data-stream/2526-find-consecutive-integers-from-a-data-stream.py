@@ -3,17 +3,16 @@ class DataStream:
     def __init__(self, value: int, k: int):
         self.value = value
         self.k = k
-        self.streak = 0
-    def consec(self, num: int) -> bool:
-        if num == self.value:
-            self.streak += 1
-        else :
-            self.streak = 0
-        if self.streak == self.k:
-            self.streak -= 1
-            return True
+        self.currIdx = -1
+        self.lastIdx = -1
 
-        return False
+    def consec(self, num: int) -> bool:
+        self.currIdx += 1
+        if num != self.value:
+            self.lastIdx = self.currIdx
+        return self.currIdx - self.lastIdx >= self.k
+
+
 # Your DataStream object will be instantiated and called as such:
 # obj = DataStream(value, k)
 # param_1 = obj.consec(num)
