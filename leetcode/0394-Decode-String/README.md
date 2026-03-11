@@ -2,7 +2,7 @@
 
 **Difficulty:** Medium
 
-**Problem:** [Decode-String](https://leetcode.com/problems/decode-string/)
+**Problem:** [Decode-String](https://leetcode.com/problems/decode-string/description/)
 
 ---
 
