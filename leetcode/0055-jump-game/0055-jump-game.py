@@ -10,6 +10,6 @@ class Solution:
                 r_j = 1
             else:
                 r_j += 1
-        if r_j <= nums[-1]:
+        if r_j == 1:
             return True
         return False
