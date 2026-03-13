@@ -1,35 +1,24 @@
 class Solution:
     def lemonadeChange(self, bills: List[int]) -> bool:
-        if bills[0] != 5 or bills[1] == 20 or bills[2] == 20:
-            return False
-        bills_coll = deque()
-        for i in range(len(bills)):
-            bill = bills[i]
-            if bill == 10:
-                if not bills_coll:
+        fives = {5: 0, 10: 0}
+        
+        for bill in bills:
+            if bill == 5:
+                fives[bill] += 1
+            elif bill == 10:
+                if fives[5] <= 0:
                     return False
-                if bills_coll[0] != 5:
-                    return False
-                else:
-                    bills_coll.popleft()
-                    bills_coll.append(10)
-            elif bill == 20:
-                if not bills_coll:
-                    return False
-                if bills_coll[0] != 5:
-                    return False
-                else :
-                    bills_coll.popleft()
-                    if not bills_coll:
-                        return False
-                    if bills_coll[-1] == 10:
-                        bills_coll.pop()
-                    else:
-                        bills_coll.pop()
-                        if not bills_coll:
-                            return False
-                        bills_coll.pop()
+                fives[5] -= 1
+                fives[bill] += 1
             else:
-                bills_coll.appendleft(bill)
-         
+                if fives[10] > 0:
+                    fives[10] -= 1
+                    fives[5] -= 1
+                    if fives[5] < 0:
+                        return False
+                else:
+                    fives[5] -= 3
+                    if fives[5] < 0:
+                        return False
+        
         return True
