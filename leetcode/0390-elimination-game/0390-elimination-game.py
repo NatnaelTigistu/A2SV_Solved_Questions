@@ -4,8 +4,7 @@ class Solution:
         remaining = n  
         step = 1  
         head = 1  
-        while remaining > 1:
-         
+        while remaining > 1:  
             if left or remaining % 2 == 1:
                 head += step
             step *= 2  
