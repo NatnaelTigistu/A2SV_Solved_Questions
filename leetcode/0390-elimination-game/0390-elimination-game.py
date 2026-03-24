@@ -11,8 +11,5 @@ class Solution:
             step *= 2  
             remaining //= 2  
             left = not left  
-            print(head)
-            print(step)
-            print(remaining)
-
+ 
         return head
