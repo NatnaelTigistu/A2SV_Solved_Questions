@@ -1,8 +1,6 @@
 class Solution:
     def minPatches(self, nums: List[int], n: int) -> int:
-        #[1,3] n=6
         ops = 0
-    
         postfix = 0 
         current = 1
         
@@ -10,14 +8,14 @@ class Solution:
             if postfix >= n:
                 return ops
 
-            while nums[i] > postfix+1 and nums[i] != 1: # 34 > 12
+            while nums[i] > postfix+1 and nums[i] != 1: 
                 if postfix >= n:
                     return ops
-                postfix += current #23
-                current = postfix + 1 #
-                ops += 1 # 
-            postfix += nums[i] # 11
-            current = postfix + 1 # 12
+                postfix += current 
+                current = postfix + 1 
+                ops += 1 
+            postfix += nums[i] 
+            current = postfix + 1 
 
         while postfix < n:
             postfix += current
