@@ -7,28 +7,28 @@ class Solution:
     def sortList(self, head: Optional[ListNode]) -> Optional[ListNode]:
         if not head or not head.next:
             return head
-        slow, fast = head, head
+        slow , fast = head , head
         prev = None
         while fast and fast.next:
             prev = slow
-            slow = slow.next
+            slow  = slow.next
             fast = fast.next.next
         prev.next = None
         left = self.sortList(head)
         right = self.sortList(slow)
-        return self.merge(left, right)
+        return self.merge(left,right)
 
-    def merge(self, l1, l2):
-        dummy = ListNode(0)
-        cur = dummy
+    def merge(self,l1,l2):
+        dumy = ListNode(0)
+        curr = dumy
         while l1 and l2:
-            if l1.val < l2.val:
-                cur.next = l1
-                l1 = l1.next
-            else:
-                cur.next = l2
+            if l1.val > l2.val:
+                curr.next = l2
                 l2 = l2.next
-            cur = cur.next
-        if l1: cur.next = l1
-        if l2: cur.next = l2
-        return dummy.next
+            else:
+                curr.next = l1
+                l1 = l1.next
+            curr = curr.next
+        if l1: curr.next = l1
+        if l2: curr.next = l2
+        return dumy.next
