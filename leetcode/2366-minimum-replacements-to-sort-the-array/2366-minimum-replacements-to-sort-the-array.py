@@ -1,10 +1,6 @@
 class Solution:
     def minimumReplacement(self, nums: List[int]) -> int:
-        '''
-        last = 23
-        [19,7,2,24,11,16,1,11,23]
 
-        '''
         ops = 0 
         last = nums[-1]
         
