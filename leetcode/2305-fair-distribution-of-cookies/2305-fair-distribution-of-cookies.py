@@ -4,6 +4,7 @@ class Solution:
         fair = [0]*k
         def rec(i):
             nonlocal ans,fair
+           
             if i == len(cookies):
                 ans = min(ans,max(fair))
                 return
