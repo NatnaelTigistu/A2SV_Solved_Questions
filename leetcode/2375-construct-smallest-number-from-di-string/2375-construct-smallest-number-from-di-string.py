@@ -7,7 +7,6 @@ class Solution:
                 while s:
                     res += s.pop()
             s.append(chr(i + ord('2')))
-            print(res,s)
         while s: res += s.pop()
-        print(res)
+       
         return res
