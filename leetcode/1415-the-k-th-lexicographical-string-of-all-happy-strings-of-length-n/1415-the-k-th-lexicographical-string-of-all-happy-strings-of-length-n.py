@@ -4,7 +4,7 @@ class Solution:
         def backtrack(e):
             if len(res) == k:
                 return
-            print(e)
+      
             if len(e) == n:
                 #append and return
                 res.append(''.join(c for c in e))
@@ -32,8 +32,10 @@ class Solution:
                 backtrack(e)
                 e.pop()
         for char in ['a','b','c']:
+            if len(res) == k:
+                break
             backtrack([char])
-    
+        print(res)
         if len(res) == k:
             return res[k-1]
         return ""
