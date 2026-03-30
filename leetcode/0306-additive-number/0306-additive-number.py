@@ -5,6 +5,7 @@ class Solution:
         valid = False
         def check(s,path):
             nonlocal valid,greater
+            if valid : return
             print(s,path)
             if len(path) > 2:
                 for i in range(2,len(path)):
