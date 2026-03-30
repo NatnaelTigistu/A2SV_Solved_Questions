@@ -1,24 +1,22 @@
 class Solution:
     def isAdditiveNumber(self, num: str) -> bool:
         valid = False
-        def backtrack(start,path):
+        def check(s,path):
             nonlocal valid
-
+            print(s,path)
             if len(path) > 2:
                 for i in range(2,len(path)):
                     if path[i] != path[i-1] + path[i-2]:
                         return
-                if start == len(num):
+                if s == len(num):
                     valid = True
                     return
             
-            for i in range(start,len(num)):
-                if num[start] == '0' and i != start: return
-                digit = int(num[start:i+1])
-                path.append(digit)
-                backtrack(i+1,path)
-                if valid: return
+            for i in range(s,len(num)):
+                if num[s] == '0' and i != s:
+                    return
+                path.append(int(num[s:i+1]))
+                check(i+1,path)
                 path.pop()
-        backtrack(0,deque())
+        check(0,[])
         return valid
-                
